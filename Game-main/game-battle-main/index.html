@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<div id="topRow">
+			<div id="friskStats" class="stats">
+				<span class="healthLabel">HEALTH</span><br>
+				<div class="hpBorder">
+					<div id="friskManHP" class="hpBar"></div>
+				</div>
+				<p id="friskMoves">
+					<span class="healthLabel">MOVES</span><br>
+					<button onclick="blast()" class="buttonStyle">Attack</button>
+					<button onclick="blast()" class="buttonStyle">Special Attack</button>
+				</p>
+				
+			</div>
+			<div id="friskMan" class="chars">
+				<img src="images/frisk.png">
+			</div>	
+			<div id="attack"></div>
+			<div id="enemyAttack"></div>
+			<div id="veigar" class="chars">
+				<img src="images/sans.png" height="200px">
+			</div>
+			<div id="veigStats" class="stats">
+				<span class="healthLabel">HEALTH</span><br>
+				<div class="hpBorder">
+					<div id="veigHP" class="hpBar"></div>
+				</div>
+			</div>
+		</div>
+		<div id="bottomRow">
+			<button onclick="beginBattle()" class="buttonStyle">STAR</button>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
